@@ -1,0 +1,39 @@
+.watupro-practice
+{
+	padding:10px;	
+}
+
+.watupro-for-removal
+{
+	background:#CCC;
+	color:#777;
+	font-style:italic;
+}
+
+.watupro-sortable li {
+	border: 1pt dashed #DDD;
+	padding:5px;
+	cursor: move;
+	margin-bottom: 5px;
+}
+
+.watupro-matrix-right {
+	float:left;width:100%;clear:both;
+}
+
+.watupro-matrix-draggable {
+	float:left;
+	min-width:100px;
+	padding:5px;
+	border:1px dashed #999;
+	margin: 5px;
+	cursor: move;
+}
+
+.watupro-matrix-left-cell, .watupro-matrix-right-cell {
+	width: 50%;
+}
+
+.watupro-droppable-hover {
+	background-color: #eee;	
+}
